@@ -1,0 +1,31 @@
+{
+  "name": "platzom",
+  "version": "0.1.0",
+  "description": "Lenguaje de Dorian, convierte palabras normales  a idioma DM",
+  "main": "dist/src/platzom.js",
+  "scripts": {
+    "build": "babel src/platzom.js -d dist",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dorian-morones/platzom.git"
+  },
+  "keywords": [
+    "platzom",
+    "js",
+    "DM"
+  ],
+  "author": "Dorian Morones <dorianm393@gmail.com> (http://www.dorianmorones.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dorian-morones/platzom/issues"
+  },
+  "homepage": "https://github.com/dorian-morones/platzom#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
+  }
+}
